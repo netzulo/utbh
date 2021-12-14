@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-import "@openzeppelin/contracts/presets/ERC20PresetMinterPauser.sol";
+import "@openzeppelin/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol";
 
 
 /* 
@@ -14,7 +14,6 @@ release date: 2021-12-06
 contract UtbhToken is ERC20PresetMinterPauser {
 
   constructor(uint256 initialSupply) ERC20PresetMinterPauser("UnTioBlancoHetero", "UTBH") public {
-    uint256 initialSupply = 1000;
     _mint(msg.sender, initialSupply);
   }
 }
