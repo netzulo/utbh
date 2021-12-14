@@ -1,0 +1,26 @@
+{
+  "name": "utbh",
+  "version": "1.0.0",
+  "description": "UTBH Coin =========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netzulo/utbh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/netzulo/utbh/issues"
+  },
+  "homepage": "https://github.com/netzulo/utbh#readme",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  },
+  "dependencies": {
+    "truffle": "^5.4.23"
+  }
+}
